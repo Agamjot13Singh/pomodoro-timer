@@ -10,14 +10,14 @@ class SettingPageDetailed extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           Text(
-            'Add new timer',
+            'Settings',
             style:
-                GoogleFonts.overpass(fontSize: 25, fontWeight: FontWeight.w800),
+                GoogleFonts.poppins(fontSize: 27, fontWeight: FontWeight.w400),
           ),
-          SettingsCardWidget('Focus Time'),
-          SettingsCardWidget('Short break'),
-          SettingsCardWidget('Long break'),
-          SettingsCardWidget('Sections')
+          SettingsCardWidget('Time for the Timer'),
+          SettingsCardWidget('Color Theme'),
+          SettingsCardWidget('Sign In'),
+          SettingsCardWidget('Sign Up')
         ]);
   }
 }
